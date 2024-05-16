@@ -1,0 +1,155 @@
+
+* {
+  display: border-box;
+}
+
+
+
+/* -- body-section  -- */
+
+
+
+
+body{
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A1B21;
+
+}
+
+
+
+
+
+/* -- info-Section --*/
+
+nav {
+  background-color: #1A1B21;
+}
+
+
+.nav--avatar {
+  width: 100%;
+}
+
+.nav--info {
+  text-align: center;
+
+  
+}
+
+.nav--info > h2 {
+  margin: 0 auto;
+  padding: 5px;
+  color: #F5F5F5;
+}
+
+.nav--info > h4 {
+  margin: 0 auto;
+  padding: 5px;
+  color: #F3BF99;
+}
+
+.nav--info > h5 {
+  margin: 0 auto;
+  padding: 5px;
+  color: #F5F5F5;
+  font-size: 10px;
+}
+
+
+/* -- Button-section -- */
+
+.nav--btn {
+
+display: flex;
+justify-content: space-around;
+padding: 0 2em;
+align-items: center;
+
+
+
+  
+}
+
+
+.nav--btn > button {
+  min-width: 115px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* --About section-- */
+
+.about {
+  margin-top: 50px;
+  margin-left: 15px;
+  color: #F5F5F5;
+
+  
+}
+
+.about > p {
+  padding: 1rem;
+  margin-top: 0;
+ 
+}
+
+.about > h3 {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* --Interest Section-- */
+
+
+
+.Interest {
+  margin-left: 15px;
+  margin-top: 30px;
+ 
+  color: white;
+}
+
+
+.Interest > h3 {
+  padding: 0;
+  margin: 0; 
+}
+
+.Interest > p {
+  padding: 1rem;
+  margin: 0;
+ 
+}
+
+
+
+ 
+.footer--icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #161619;
+  padding: 20px;
+  margin-top: 50px;
+  
+}
